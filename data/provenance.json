@@ -1,0 +1,16 @@
+{
+  "source": "https://bioconductor.org/packages/pasilla/",
+  "accession": "GSE18508",
+  "repository": "https://github.com/bioc/pasilla",
+  "commit": "3c91e8df8add3549129e46b7a7a078fda4e2755a",
+  "files": [
+    "pasilla_gene_counts.tsv",
+    "pasilla_sample_annotation.csv"
+  ],
+  "license": "LGPL (upstream pasilla package); original files retained without alteration",
+  "citation": "Brooks et al. (2011), Genome Research; pasilla Bioconductor data package",
+  "sha256": {
+    "pasilla_gene_counts.tsv": "ea0dafbfcc600559644cfe7dd5cc8de809d631eb64ba3089aaa25c2fa0954dad",
+    "pasilla_sample_annotation.csv": "1844f871ca5d750f41685c73b87bd7dda291ec0d52304c1afb46a17ae88db745"
+  }
+}

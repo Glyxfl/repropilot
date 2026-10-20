@@ -1,0 +1,7 @@
+fastapi==0.115.12
+uvicorn==0.34.2
+pydeseq2==0.5.4
+matplotlib>=3.9,<4
+pandas>=2.2,<3
+numpy>=2.0,<3
+httpx>=0.28,<1

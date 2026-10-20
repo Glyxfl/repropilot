@@ -1,0 +1,23 @@
+Package: pasilla
+Title: Data package with per-exon and per-gene read counts of RNA-seq samples of Pasilla knock-down by Brooks et al., Genome Research 2011.
+Version: 1.41.0
+Author: Wolfgang Huber, Alejandro Reyes
+Maintainer: Alejandro Reyes <alejandro.reyes.ds@gmail.com>
+Description: This package provides per-exon and per-gene read counts
+   computed for selected genes from RNA-seq data that were presented in
+   the article "Conservation of an RNA regulatory map between Drosophila
+   and mammals" by Brooks AN, Yang L, Duff MO, Hansen KD, Park JW, Dudoit
+   S, Brenner SE, Graveley BR, Genome Res. 2011 Feb;21(2):193-202, Epub
+   2010 Oct 4, PMID: 20921232.  The experiment studied the effect of RNAi
+   knockdown of Pasilla, the Drosophila melanogaster ortholog of
+   mammalian NOVA1 and NOVA2, on the transcriptome.  The package vignette
+   describes how the data provided here were derived from the RNA-Seq
+   read sequence data that are provided by NCBI Gene Expression Omnibus
+   under accession numbers GSM461176 to GSM461181.
+biocViews: ExperimentData, Genome, Drosophila_melanogaster_Data, RNASeqData
+License: LGPL
+Suggests: rmarkdown, BiocStyle, knitr, roxygen2
+Depends: R (>= 3.5.0), DEXSeq
+VignetteBuilder: knitr
+RoxygenNote: 7.2.3
+Encoding: UTF-8

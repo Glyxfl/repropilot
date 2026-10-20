@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.cmd text eol=crlf
+*.png binary
+*.zip binary
+# Preserve exact upstream bytes; provenance checks must survive Windows/Linux clones.
+data/pasilla_gene_counts.tsv -text
+data/pasilla_sample_annotation.csv -text
